@@ -49,7 +49,7 @@ The command line is where you'll start:
 
 10. Install pip from source, as the version that is in the Raspbian apt repository is too old. You can ignore any messages about `InsecurePlatformWarning`:
 
-        pi@raspberrypi ~ $ wget https://raw.github.com/pypa/pip/master/contrib/get-pip.py
+        pi@raspberrypi ~ $ wget https://bootstrap.pypa.io/get-pip.py
         pi@raspberrypi ~ $ sudo python get-pip.py
 
 11. Install [Cython](http://cython.org/), [Pygments](http://pygments.org/), and [docutils](https://pypi.python.org/pypi/docutils). The Pygments and docutils packages are not actually required for Kivy, but the example code you'll execute uses them. This step will take a few minutes:
